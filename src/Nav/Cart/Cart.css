@@ -1,0 +1,70 @@
+.items{
+    display : flex;
+    flex-direction : column;
+    flex-wrap : wrap;
+    justify-content: space-around;
+    width  :40%;
+    align-items : center;
+    border: 4px solid rgba(243, 242, 242, 0.986);;
+    border-radius: .3em;
+    padding: 0px;
+    margin : 40px;
+    background :rgba(243, 242, 242, 0.986);
+    margin-top: 20px;
+    margin-bottom : 8px
+}
+
+.card{
+    display : flex;
+    flex-direction: row;
+    justify-content : space-between;
+    align-items : center;
+    width : 60%;
+    margin : auto
+}
+
+.vertical {
+    border-left: 3px solid rgba(194, 191, 191, 0.986);
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+.sum{
+    display : flex;
+    flex-direction : column;
+    flex-wrap : wrap;
+    justify-content: space-around;
+    width  :40%;
+    align-items : center;
+    border: 4px solid rgb(180, 200, 243);
+    border-radius: .3em;
+    padding: 10px;
+    margin : 40px;
+    background : rgb(181, 202, 247);
+    font-weight : 500
+
+}
+.photo{
+    border-radius: 50%;
+    height : 70px;
+    width : 70px
+}
+
+.empty {
+  text-align: center;
+  margin: 10%;
+  color: rgb(158, 158, 158);
+  font-weight: 500;
+  font-size: large;
+}
+
+.ycart {
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+  color: rgb(92, 88, 88);
+  margin-top: 25px;
+  margin-bottom: 0px;
+}

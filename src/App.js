@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import { BrowserRouter } from "react-router-dom";
-import logo from "./logo.svg";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./Home/Home";
+import Nav from "./Nav/Nav";
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
-          <Home />
+        <div>
+          <Nav />
         </div>
       </BrowserRouter>
     );

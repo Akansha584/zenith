@@ -1,0 +1,10 @@
+.root {
+    width: 30%;
+    margin : 30px;
+  }
+
+.items {
+  display: flex;
+  flex-direction: row;
+  width  :100%
+}
